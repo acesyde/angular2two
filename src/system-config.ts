@@ -7,10 +7,12 @@
  **********************************************************************************************/
 /** Map relative paths to URLs. */
 const map: any = {
+  'ng2-toasty':'vendor/ng2-toasty',
 };
 
 /** User packages configuration. */
 const packages: any = {
+  "ng2-toasty": {"defaultExtension": "js"}
 };
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
