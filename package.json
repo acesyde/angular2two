@@ -24,6 +24,7 @@
     "angular2-jwt": "^0.1.17",
     "bootstrap-sass": "^3.3.6",
     "es6-shim": "0.35.1",
+    "font-awesome": "^4.6.3",
     "ng2-toasty": "^1.7.3",
     "node-sass": "^3.8.0",
     "reflect-metadata": "0.1.3",

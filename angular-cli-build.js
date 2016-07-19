@@ -10,7 +10,7 @@ module.exports = function(defaults) {
   return new Angular2App(defaults, {
     sassCompiler: {
       cacheExclude: [/\/_[^\/]+$/],
-      includePaths: [ 'node_modules/bootstrap-sass/assets/stylesheets' ]
+      includePaths: [ 'node_modules/bootstrap-sass/assets/stylesheets','node_modules/font-awesome/scss' ]
     },
     vendorNpmFiles: [
       'systemjs/dist/system-polyfills.js',
@@ -21,7 +21,8 @@ module.exports = function(defaults) {
       'rxjs/**/*.+(js|js.map)',
       '@angular/**/*.+(js|js.map)',
       'bootstrap-sass/assets/**/*',
-      'ng2-toasty/**/*.+(js|js.map)'
+      'ng2-toasty/**/*.+(js|js.map)',
+      'font-awesome/**/*.+(otf|svg|ttf|woff|woff2)'
     ]
   });
 };
